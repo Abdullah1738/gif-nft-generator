@@ -35,7 +35,7 @@ const format = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
 };
 
@@ -103,10 +103,48 @@ const emptyLayerName = "NONE";
 // Note : The key layer should always come before the incompatible layers as per defined in the layersOrder array in config/layers.json.
 let incompatible;
 incompatible = {
-  // "yo_body_01":["hand motion-3 Animated","hand motion-1 Animated","hand motion-4 Animated"],
-  // "yo_body_02":["hand motion-1 Animated","hand motion-2","hand motion-4 Animated"],
-  // "yo_body_03":["hand motion-3 Animated","hand motion-2","hand motion-4 Animated"],
-  // "yo_body_04":["hand motion-3 Animated","hand motion-1 Animated","hand motion-2"]
+  Chocolate: ["Spikes", "Turquoise Coll Upper"],
+  "Crazy Eyes Jacket": [
+    "Blum",
+    "Doto",
+    "Faru",
+    "Io",
+    "Jar Jar",
+    "Mashi",
+    "Nyo",
+    "Rockie",
+    "The Hand",
+    "Uma",
+    "Vex",
+    "Vladi",
+    "Winie",
+  ],
+  "Lab Uniform": [
+    "Doto",
+    "Faru",
+    "Io",
+    "Jar Jar",
+    "Mashi",
+    "Rockie",
+    "The Hand",
+    "Uma",
+    "Vex",
+    "Vladi",
+    "Winie",
+  ],
+  "Creamy Turtleneck": [
+    "Doto",
+    "Faru",
+    "Io",
+    "Jar Jar",
+    "Mashi",
+    "Rockie",
+    "The Hand",
+    "Uma",
+    "Vex",
+    "Vladi",
+    "Winie",
+  ],
 }
 
 /**
@@ -128,10 +166,6 @@ incompatible = {
 // Note : The key layer should always come before the incompatible layers as per defined in the layersOrder array in config/layers.json.
 let forcedCombinations;
 forcedCombinations = {
-  "yo_body_01":["hand motion-2"], //"yo_body_01" will always be matched with "hand motion-2"
-  "yo_body_02":["hand motion-3 Animated"], //"yo_body_02" will always be matched with "hand motion-3 Animated"
-  "yo_body_03":["hand motion-1 Animated"], //"yo_body_03" will always be matched with "hand motion-1 Animated"
-  "yo_body_04":["hand motion-4 Animated"], //"yo_body_04" will always be matched with "hand motion-4 Animated"
 };
 
 /**
